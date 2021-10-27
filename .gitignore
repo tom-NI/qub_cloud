@@ -1,0 +1,12 @@
+# taken from https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
+# if the files are already in the repo - https://stackoverflow.com/a/6313301/13215135
+
+#ignore all of googles update files!
+.DS_Store
+**/*.DS_Store
+
+#ignore vendor subdir
+vendor/
+**/vendor/
+
+**/*.cache
