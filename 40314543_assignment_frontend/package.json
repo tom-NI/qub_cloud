@@ -1,0 +1,19 @@
+{
+  "name": "40314543_assignment_frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.hal.davecutting.uk:40314543/40314543_assignment_frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
+}

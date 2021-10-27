@@ -1,0 +1,17 @@
+{
+    "services": {
+        "wordcount": {
+            "url": "http:\/\/wordtotal.40314543.qpc.hal.davecutting.uk\/",
+            "required_keys": [
+                "sentence",
+                "word"
+            ]
+        },
+        "totalcount": {
+            "url": "http:\/\/totalwords.40314543.qpc.hal.davecutting.uk\/",
+            "required_keys": [
+                "sentence"
+            ]
+        }
+    }
+}

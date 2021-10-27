@@ -8,5 +8,13 @@
 #ignore vendor subdir
 vendor/
 **/vendor/
+40314543_assignment_proxy/vendor/
 
 **/*.cache
+
+# local composer setup files
+**/*.composer-setup.php
+**/*.composer.phar
+
+#ignore node modules subdir
+**/node_modules/

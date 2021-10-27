@@ -1,0 +1,13 @@
+.master_site_width {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.all_charts {
+    min-height: 300px;
+}
+
+#full_service_div {
+    border: 2px deepskyblue solid;
+    border-radius: 25px;
+}

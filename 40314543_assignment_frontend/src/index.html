@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>40314543 - WebWordCount</title>
+</head>
+
+<body>
+    <div id="wordcount">
+        <div id="app_heading">Web Word Count App</div>
+        <p id="error_display"></p>
+        <div>
+            <textarea id="paragraph" rows="5" cols="35" placeholder="Enter the paragraph here..." value=""></textarea>
+        </div>
+        <div>
+            <input type="text" id="word" placeholder="Enter one keyword here..." value="">
+        </div>
+        <div>
+            <input type="text" class="display" id="display_result" readonly=1 placeholder="" value=""><br>
+        </div>
+        <div>
+            <button id="total_words_btn" class="wwcbutton">Count Total words</button>
+        </div>
+        <div>
+            <button id="check_keyword_btn" class="wwcbutton">Check the keyword Exists</button>
+        </div>
+        <div>
+            <button id="total_keywords_btn" class="wwcbutton">Count total keyword appearances</button>
+        </div>
+        <div>
+            <button id="clear_btn" class="wwcbutton-clear">Clear</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

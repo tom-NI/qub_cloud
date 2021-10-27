@@ -1,0 +1,2 @@
+Ensure that the key 'testing' is added to each test.
+this ensures the test config uses a seperate test_config.json file and will not interrupt any service.
