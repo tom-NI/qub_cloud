@@ -370,8 +370,8 @@
         $mail = new PHPMailer(TRUE);
 
         try {
-            $mail->setFrom('tkilpatrick01@qub.ac.uk', "Web Word Count Monitoring");
-            $mail->addAddress("tkilpatrick01@qub.ac.uk", "Web Word Count Admin");
+            $mail->setFrom('', "Web Word Count Monitoring");
+            $mail->addAddress("", "Web Word Count Admin");
             $mail->Subject = "ALERT - Web Word Count : Monitoring Error";
             $mail->Body = $emailBody;
             $mail->isHTML(true);
@@ -379,8 +379,8 @@
             $mail->Host = 'smtp.office365.com';
             $mail->SMTPAuth = TRUE;
             $mail->SMTPSecure = 'STARTTLS';
-            $mail->Username = '40314543@ads.qub.ac.uk';
-            $mail->Password = 'LearnMore*-2020*';
+            $mail->Username = '';
+            $mail->Password = '';
             $mail->Port = 587;
 
             $mail->send();
