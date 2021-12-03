@@ -1,9 +1,9 @@
-# qub_cloud final project
+# Masters Cloud Computing Module 
+## Queens University Belfast - code repository.
 
-Original project was one repo per directory shown here<br>
+The original project was organised as one git repository per directory.
+Each directory then has its own Dockerfile, from which images are built for each microservice.
 
-original .gitignore files removed due to master git repo issues<br>
-
-Dependencies;<br>
-PHPUnit 7?<br>
-HTTPGuzzle library for CI tests
+Test Dependencies;<br>
+- PHPUnit 7?<br>
+- HTTPGuzzle library for CI tests
