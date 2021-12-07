@@ -1,6 +1,5 @@
 # "wordtotal" microservice
-This microservice is used to check the total times a given keyword is found in a given paragraph for Web Word Count application.
-This was produced as per "Web Word Count" requirements.
+This microservice is used to check if a provided keyword is inside a provided paragraph for the application, produced as per project requirements.
 
 Each backend microservice had to be unit tested using CI pipelines.
 PHPUnit7 was used to unit test this codebase using gitlab CI pipelines.
