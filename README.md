@@ -1,5 +1,4 @@
-# Queens University Belfast 
-## Masters Cloud Computing Module - code repository.
+# Masters Cloud Computing Module - code repository.
 
 This codebase is for the Cloud Computing distance learning module of the MSc in Software Development.
 
