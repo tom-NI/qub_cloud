@@ -1,5 +1,4 @@
-# Proxy Router
-## Custom reverse proxy router for Web Word Count application.
+# Custom reverse proxy router
 Used to parse queries to the entire backend and conceal backend config.
 
 Requirements;
